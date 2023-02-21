@@ -4,7 +4,7 @@ A small project to implement dynamic agents for Jenkins
 
 ### Steps:
 
-- **First thing is to set up the dev cluster where we are going to try all the mess.**
+- **First thing is to set up the dev cluster where we are going to try all the mess. u can also use your own cluster in place of this dev cluster**
     - using Kind let's create the cluster `kind create cluster --config cluster-config.yaml` this will create the cluster.
     - We can check the details of the cluster using kubectl `kubectl cluster-info --context kind-kind`
     - To install reffer [https://kind.sigs.k8s.io/](https://kind.sigs.k8s.io/).
